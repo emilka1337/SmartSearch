@@ -1,0 +1,56 @@
+.bookmarks {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    background: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.bookmarks-panel {
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    background-color: rgb(26, 26, 26);
+    padding: 20px 30px;
+    border-radius: 10px;
+
+    ul {
+        padding: 0;
+        list-style: none;
+
+        li span:nth-child(1) {
+            margin-right: 5px;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: #fff;
+                margin-right: 20px;
+                font-size: 20px;
+            }
+
+            button {
+                border: none;
+                background: none;
+                color: crimson;
+                transition: 500ms;
+                // transform: scale(1.3);
+
+                &:hover {
+                    color: rgb(160, 15, 44);
+                }
+            }
+        }
+    }
+}

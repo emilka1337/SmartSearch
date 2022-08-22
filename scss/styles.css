@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@font-face {
+  font-family: Neon;
+  src: url(../fonts/Neon.otf);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .bookmarks {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border: none;
+  background: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.container .bookmarks-panel {
+  position: absolute;
+  left: 10px;
+  top: 60px;
+  background-color: #1a1a1a;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.container .bookmarks-panel ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container .bookmarks-panel ul li span:nth-child(1) {
+  margin-right: 5px;
+}
+
+.container .bookmarks-panel ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .bookmarks-panel ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.container .bookmarks-panel ul li button {
+  border: none;
+  background: none;
+  color: crimson;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.container .bookmarks-panel ul li button:hover {
+  color: #a00f2c;
+}
+
+.container form {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container form h1 {
+  font-size: 80px;
+  font-family: Neon;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.container form .search {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container form .search input {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  width: 79%;
+}
+
+.container form .search select {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  width: 20%;
+  cursor: pointer !important;
+}
+
+.container form button {
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  font-size: 26px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */

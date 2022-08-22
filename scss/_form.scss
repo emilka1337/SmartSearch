@@ -1,0 +1,45 @@
+form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    h1 {
+        font-size: 80px;
+        font-family: Neon;
+        user-select: none;
+    }
+
+    .search {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input {
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 2px;
+            width: 79%;
+        }
+
+        select {
+            font-family: 'Oswald', sans-serif;
+            letter-spacing: 2px;
+            width: 20%;
+            cursor: pointer !important;
+        }
+    }
+
+    button {
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+        padding: 10px 40px;
+        font-size: 26px;
+        transition: 500ms;
+        cursor: pointer;
+    }
+}

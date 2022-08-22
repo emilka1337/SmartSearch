@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Neon;
+    src: url(../fonts/Neon.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    @import "./bookmarks";
+    @import "./form";
+}
